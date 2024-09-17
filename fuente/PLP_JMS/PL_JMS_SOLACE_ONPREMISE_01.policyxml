@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<policies>
+  <policy policyType="JMSProviders" policyName="PL_JMS_SOLACE_ONPREMISE_01" policyTemplate="ActiveMQ">
+    <jarsURL>D:\SOAINT\Proyectos\RIPLEY\POCs\SOLACE_BUS\jars\2daVersion</jarsURL>
+    <nativeLibs>default_Path</nativeLibs>
+    <proprietaryAPIHandler>default_none</proprietaryAPIHandler>
+    <proprietaryAPIAttr1>default_none</proprietaryAPIAttr1>
+    <proprietaryAPIAttr2>default_none</proprietaryAPIAttr2>
+    <proprietaryAPIAttr3>default_none</proprietaryAPIAttr3>
+    <proprietaryAPIAttr4>default_none</proprietaryAPIAttr4>
+    <proprietaryAPIAttr5>default_none</proprietaryAPIAttr5>
+    <jndiEnvironmentParms>java.naming.security.principal=USR-APP212-ID@event-broker-onprem-dev;java.naming.security.credentials=XRmuikgl1$</jndiEnvironmentParms>
+    <clientAckBatchSize>0</clientAckBatchSize>
+    <clientAckBatchTime>0</clientAckBatchTime>
+    <jndiBindingsLocation>tcps://eb-onprem-banbif-dev.messaging.solace.cloud:31047</jndiBindingsLocation>
+    <initialContextFactory>com.solacesystems.jndi.SolJNDIInitialContextFactory</initialContextFactory>
+    <jmsAsyncExceptionHandling>false</jmsAsyncExceptionHandling>
+    <connectionFactoryName>/jms/cf/default</connectionFactoryName>
+    <jmsProviderXASupport>true</jmsProviderXASupport>
+    <jndiEnvironmentObject></jndiEnvironmentObject>
+    <jndiEnvironmentObjectParm1></jndiEnvironmentObjectParm1>
+    <jndiEnvironmentObjectParm2></jndiEnvironmentObjectParm2>
+    <jndiEnvironmentObjectParm3></jndiEnvironmentObjectParm3>
+    <jndiEnvironmentObjectParm4></jndiEnvironmentObjectParm4>
+    <jndiEnvironmentObjectParm5></jndiEnvironmentObjectParm5>
+    <useDeployedJars>false</useDeployedJars>
+  </policy>
+</policies>
